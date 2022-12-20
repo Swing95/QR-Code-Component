@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Path: styles.css */
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit';
+    display: grid;
+    place-items: center;
+}
+
+.wrapper {
+
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+        rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    width: 300px;
+    height: 460px;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+}
+
+img {
+    border-radius: 0.7rem;
+    width: 100%;
+}
+
+.text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+p {
+    color: hsl(210, 5%, 68%);
+    text-align: center;
+}
+
+.attribution {
+    font-size: 0.7rem;
+}
+
